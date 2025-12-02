@@ -48,7 +48,10 @@ export function Footer() {
             <h4 className="font-heading font-semibold">Sumber Daya</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <a href="#" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+                <a 
+                  href="#tentang" 
+                  className="flex items-center gap-2 hover:text-primary-foreground transition-colors"
+                >
                   <FileText className="h-4 w-4" />
                   Makalah Penelitian
                 </a>
